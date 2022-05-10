@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [1.2.2](https://github.com/OmarBentaybi/2021-23.SA.UFS07/compare/v1.2.1...v1.2.2) (2022-05-10)
+
+
+### Bug Fixes
+
+* site ([1ef6ebd](https://github.com/OmarBentaybi/2021-23.SA.UFS07/commit/1ef6ebd36919565b096bd95dbf79995738df39be))
+
 ### [1.2.1](https://github.com/OmarBentaybi/2021-23.SA.UFS07/compare/v1.2.0...v1.2.1) (2022-05-10)
 
 ## 1.2.0 (2022-05-10)
