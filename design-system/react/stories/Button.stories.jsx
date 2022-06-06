@@ -20,21 +20,19 @@ export const Primary = Template.bind({});
 Primary.args = {
   primary: true,
   label: 'Button',
+  type: 'reset',
 };
 
-export const Secondary = Template.bind({});
-Secondary.args = {
+export const Submit = Template.bind({});
+Submit.args = {
   label: 'Button',
+  type: 'submit',
 };
 
 export const Large = Template.bind({});
 Large.args = {
-  size: 'large',
   label: 'Button',
+  type: 'button',
 };
 
-export const Small = Template.bind({});
-Small.args = {
-  size: 'small',
-  label: 'Button',
-};
+
