@@ -4,7 +4,7 @@ import PropTypes from 'prop-types';
 /**
  * Primary UI component for user interaction
  */
-export const Input = ({ placeholder, onData,type, isValid }) => {
+export const Input = ({ id,placeholder, onData,type, isValid, label }) => {
   function onInput(InputEvent){
     console.log("input.onImput", InputEvent);
     if(typeof onData === 'function'){
@@ -16,31 +16,38 @@ export const Input = ({ placeholder, onData,type, isValid }) => {
   return (
     <>
       <input
+      id={id}
       onInput={onInput}
       placeholder={placeholder}
       type={type}
       >
       
       </input>
+      <label htmlFor={id}>{label}</label>
+      {label === undefined ? null : <label htmlFor={id}>{label}</label>}
     {isValid===undefined ? null : message}
     </>
   );
 };
 
 Input.propTypes = {
- 
-  placeholder: PropTypes.string.isRequired,
+  id : PropTypes.string.isRequired,
+  placeholder: PropTypes.string,
 
   onData: PropTypes.func,
 
   isValid: PropTypes.bool,
 
   type: PropTypes.string,
+  label: PropTypes.string,
 };
 
 Input.defaultProps = {
   type: 'text',
   onData: undefined,
   isValid: undefined,
+  placeholder: undefined,
+  label:undefined,
+
   
 };
