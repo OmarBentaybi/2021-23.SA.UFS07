@@ -2,6 +2,29 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [1.3.0](https://github.com/OmarBentaybi/2021-23.SA.UFS07/compare/ds1.2.2...ds1.3.0) (2022-06-10)
+
+
+### Features
+
+* added button ([512f8bd](https://github.com/OmarBentaybi/2021-23.SA.UFS07/commit/512f8bd8a59f9be46103a4b9d00b5c20df73a5fb))
+* change template ([941c66d](https://github.com/OmarBentaybi/2021-23.SA.UFS07/commit/941c66d17fb0d54448ce6d77f2a3865bc4051573))
+* **components-pipeline-4:** add babel setup ([3063c13](https://github.com/OmarBentaybi/2021-23.SA.UFS07/commit/3063c13f961cbb8b0de91233f246032e3d605952))
+* **components-pipeline-4:** add webpack setup ([9ea067e](https://github.com/OmarBentaybi/2021-23.SA.UFS07/commit/9ea067e83a7465af3e8d8bde13907bbb6ae6b8c7))
+* **components-pipeline-4:** react hello world ([778d70d](https://github.com/OmarBentaybi/2021-23.SA.UFS07/commit/778d70d7329efda405ad0b04312fb1a1fde061f4))
+* input changes ([b4a2d3d](https://github.com/OmarBentaybi/2021-23.SA.UFS07/commit/b4a2d3d1f5f733b8c1f8d89c1b4b9cbfed9c900d))
+* install button ([9a9ebae](https://github.com/OmarBentaybi/2021-23.SA.UFS07/commit/9a9ebaefcfd09977b155f094a81c003ad79705d7))
+* install dependences ([15749b1](https://github.com/OmarBentaybi/2021-23.SA.UFS07/commit/15749b1661c8eee0be7a8cf9c674e8e39bf3ee71))
+
+
+### Bug Fixes
+
+* add version on title ([23045c6](https://github.com/OmarBentaybi/2021-23.SA.UFS07/commit/23045c623dfb462fd2db94df70713e98288253f1))
+* buttons ([febc85a](https://github.com/OmarBentaybi/2021-23.SA.UFS07/commit/febc85a80f7bbc4b66ac1a7750587761b641bc3d))
+* link deploy ([bd8d6f3](https://github.com/OmarBentaybi/2021-23.SA.UFS07/commit/bd8d6f3fa271e59d6b884bba495a0547d6e5d68b))
+* some changes ([e92cf87](https://github.com/OmarBentaybi/2021-23.SA.UFS07/commit/e92cf87ecd8723d8b72052f152adf1a60e3d12ff))
+* updated npm version ([0d552d5](https://github.com/OmarBentaybi/2021-23.SA.UFS07/commit/0d552d5c8bae12876a636aeaf3728d45e967826f))
+
 ### [1.2.2](https://github.com/OmarBentaybi/2021-23.SA.UFS07/compare/ds1.2.1...ds1.2.2) (2022-05-27)
 
 ### [1.2.1](https://github.com/OmarBentaybi/2021-23.SA.UFS07/compare/ds1.2.0...ds1.2.1) (2022-05-24)
