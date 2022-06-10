@@ -2,6 +2,15 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [1.6.4](https://github.com/OmarBentaybi/2021-23.SA.UFS07/compare/v1.6.3...v1.6.4) (2022-06-10)
+
+
+### Bug Fixes
+
+* buttons ([febc85a](https://github.com/OmarBentaybi/2021-23.SA.UFS07/commit/febc85a80f7bbc4b66ac1a7750587761b641bc3d))
+* some changes ([e92cf87](https://github.com/OmarBentaybi/2021-23.SA.UFS07/commit/e92cf87ecd8723d8b72052f152adf1a60e3d12ff))
+* updated npm version ([0d552d5](https://github.com/OmarBentaybi/2021-23.SA.UFS07/commit/0d552d5c8bae12876a636aeaf3728d45e967826f))
+
 ### [1.6.3](https://github.com/OmarBentaybi/2021-23.SA.UFS07/compare/v1.6.2...v1.6.3) (2022-06-06)
 
 ### [1.6.2](https://github.com/OmarBentaybi/2021-23.SA.UFS07/compare/v1.6.1...v1.6.2) (2022-06-06)
