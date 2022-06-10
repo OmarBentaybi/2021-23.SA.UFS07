@@ -4,21 +4,26 @@ import PropTypes from 'prop-types';
 /**
  * Primary UI component for user interaction
  */
-export const Input = ({ placeholder, onData,type }) => {
+export const Input = ({ placeholder, onData,type, isValid }) => {
   function onInput(InputEvent){
     console.log("input.onImput", InputEvent);
     if(typeof onData === 'function'){
     onData(InputEvent.target.value)
     }
   }
+
+  const message = isValid ? "Valore buono":"Valore non buono";
   return (
-    <input
+    <>
+      <input
       onInput={onInput}
       placeholder={placeholder}
       type={type}
-    >
+      >
       
-    </input>
+      </input>
+    {isValid===undefined ? null : message}
+    </>
   );
 };
 
@@ -33,7 +38,7 @@ Input.propTypes = {
   type: PropTypes.string,
 };
 
-Button.defaultProps = {
+Input.defaultProps = {
   type: 'text',
   onData: undefined,
   isValid: undefined,
