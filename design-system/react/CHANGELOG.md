@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [1.3.1](https://github.com/OmarBentaybi/2021-23.SA.UFS07/compare/ds1.3.0...ds1.3.1) (2022-06-14)
+
+
+### Bug Fixes
+
+* automated release ([761ca77](https://github.com/OmarBentaybi/2021-23.SA.UFS07/commit/761ca77dfe346f3b6e6d54ff19ed912748013fe5))
+
 ## [1.3.0](https://github.com/OmarBentaybi/2021-23.SA.UFS07/compare/ds1.2.2...ds1.3.0) (2022-06-10)
 
 
