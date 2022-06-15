@@ -5,6 +5,7 @@ const App = () => (
     <div>
         <h1>Hello React</h1>
         <Button label={"gasssss"} />
+        <Input id={"20"} />
     </div>
 );
 
